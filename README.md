@@ -37,8 +37,9 @@ ETHOS is the modern operating system powering FrSky transmitters including the X
 
 ### Telemetry & Dashboards
 
-- [vprheli/ETHOS-Lua](https://github.com/vprheli/ETHOS-Lua) - Collection of Lua widgets for FrSky ETHOS transmitters including telemetry displays and utility widgets.
+- [i3dm/Zavionix](https://github.com/i3dm/Zavionix) - Popular collection of telemetry widgets including turbine/ECU displays (RDT, Cells) for ETHOS and EdgeTX/OpenTX.
 - [robthomson/dashx-ethos](https://github.com/robthomson/dashx-ethos) - DashX telemetry dashboard for ETHOS with a clean, configurable multi-sensor display.
+- [vprheli/ETHOS-Lua](https://github.com/vprheli/ETHOS-Lua) - Collection of Lua widgets for FrSky ETHOS transmitters including telemetry displays and utility widgets.
 - [robthomson/omp-ofs3-dashboard](https://github.com/robthomson/omp-ofs3-dashboard) - OFS3 telemetry dashboard for ETHOS, purpose-built for OMP Hobby helicopters.
 - [wmayvis/FrSky-Lua](https://github.com/wmayvis/FrSky-Lua) - Collection of different ETHOS Lua widget releases.
 - [lthole/Ethos-Status-widget](https://github.com/lthole/Ethos-Status-widget) - Widget for displaying the status of a source with color-coded indicators.
