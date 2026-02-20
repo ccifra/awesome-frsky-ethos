@@ -19,6 +19,8 @@ ETHOS is the modern operating system powering FrSky transmitters including the X
 - [Lua Scripts & Tools](#lua-scripts--tools)
 - [Flight Controller Integration](#flight-controller-integration)
   - [Rotorflight](#rotorflight)
+  - [INAV](#inav)
+  - [Betaflight](#betaflight)
   - [DSM & Spektrum](#dsm--spektrum)
 - [Layouts](#layouts)
 - [Sound Packs](#sound-packs)
@@ -43,6 +45,7 @@ ETHOS is the modern operating system powering FrSky transmitters including the X
 - [robthomson/omp-ofs3-dashboard](https://github.com/robthomson/omp-ofs3-dashboard) - OFS3 telemetry dashboard for ETHOS, purpose-built for OMP Hobby helicopters.
 - [wmayvis/FrSky-Lua](https://github.com/wmayvis/FrSky-Lua) - Collection of different ETHOS Lua widget releases.
 - [lthole/Ethos-Status-widget](https://github.com/lthole/Ethos-Status-widget) - Widget for displaying the status of a source with color-coded indicators.
+- [strgaltdel/Ethos_UDOs_Suite](https://github.com/strgaltdel/Ethos_UDOs_Suite) - "All in One" suite to run several Lua widgets in a single frame.
 
 ### Battery & Power
 
@@ -52,6 +55,7 @@ ETHOS is the modern operating system powering FrSky transmitters including the X
 ### GPS & Mapping
 
 - [yaapu/EthosMappingWidget](https://github.com/yaapu/EthosMappingWidget) - Mapping widget for ETHOS with real-time GPS position display on offline maps.
+- [MrD-RC/ETHOS-GNSS-display-for-INAV](https://github.com/MrD-RC/ETHOS-GNSS-display-for-INAV) - Widget to display GNSS satellite count from INAV telemetry.
 - [PD5DJ/H4LGPSMAP](https://github.com/PD5DJ/H4LGPSMAP) - Hobb4life GPS map widget with path trace and home position tracking.
 
 ### Flight Modes & Status
@@ -64,6 +68,8 @@ ETHOS is the modern operating system powering FrSky transmitters including the X
 
 - [PD5DJ/AdvGauge](https://github.com/PD5DJ/AdvGauge) - Advanced gauge widget with configurable min/max ranges, color zones, and needle display.
 - [aviat40/ETHOS-Lua](https://github.com/aviat40/ETHOS-Lua) - Example Lua widget implementations for learning and reference, covering common widget patterns.
+- [flyingeek/ethos-color-value](https://github.com/flyingeek/ethos-color-value) - Widget to display values with customizable color thresholds, including min/max tracking for telemetry sensors.
+- [Peschi90/ethos_start_height](https://github.com/Peschi90/ethos_start_height) - Widget to detect and display start/launch height for DLG (discus launch glider) flying.
 
 ### Turbine & Jet
 
@@ -89,6 +95,15 @@ ETHOS is the modern operating system powering FrSky transmitters including the X
 - [rotorflight/rotorflight-lua-ethos](https://github.com/rotorflight/rotorflight-lua-ethos) - Rotorflight Lua scripts for ETHOS with telemetry display and configuration pages.
 - [flounderscore/rotorflight-flight-log](https://github.com/flounderscore/rotorflight-flight-log) - Flight logger for ETHOS transmitters in combination with Rotorflight.
 - [jimmy6616/Rotorflight-Frsky-Setup](https://github.com/jimmy6616/Rotorflight-Frsky-Setup) - Step-by-step instructions for FrSky ETHOS initial radio and Rotorflight configurator setup.
+
+### INAV
+
+- [iNavFlight/ETHOS-Telemetry-Dashboard](https://github.com/iNavFlight/ETHOS-Telemetry-Dashboard) - Official INAV Suite for ETHOS with full telemetry dashboard and configuration tools.
+- [robthomson/inav-ethos-suite](https://github.com/robthomson/inav-ethos-suite) - INAV configuration suite for ETHOS transmitters.
+
+### Betaflight
+
+- [robthomson/betaflight-ethos-suite](https://github.com/robthomson/betaflight-ethos-suite) - Betaflight configuration suite for ETHOS with telemetry and tuning capabilities.
 
 ### DSM & Spektrum
 
