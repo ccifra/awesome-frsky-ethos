@@ -14,3 +14,6 @@ MD033: false
 
 # Allow inline HTML
 MD036: false
+
+# Allow files without H1 first (for templates)
+MD041: false

@@ -2,9 +2,9 @@
 
 # Awesome FrSky ETHOS [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome resources, Lua scripts, widgets, tools, and community projects for [FrSky ETHOS](https://ethos.frsky-rc.com/) — the operating system for FrSky's next-generation RC transmitters.
+> A curated list of awesome resources, Lua scripts, widgets, tools, and community projects for FrSky ETHOS — the operating system for FrSky's next-generation RC transmitters.
 
-ETHOS is the modern operating system powering FrSky transmitters including the X20, X20S, X20 Pro, X18, X18S, X14, X14S, Twin X, Twin X Lite, and more. It features a touch-screen interface, Lua scripting support, and a rich widget system.
+ETHOS is the modern operating system powering FrSky transmitters.
 
 ## Contents
 
@@ -142,8 +142,6 @@ ETHOS is the modern operating system powering FrSky transmitters including the X
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
 
-## License
-
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work. See the [LICENSE](LICENSE) file for details.
+To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.

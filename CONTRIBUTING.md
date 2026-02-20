@@ -32,6 +32,6 @@ To be included in this list, a project should meet the following criteria:
 
 Sometimes we will ask you to edit your pull request before it is included. This is normally due to spelling errors or because your PR didn't match the guidelines above.
 
-[Here](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) is a write-up on how to change a pull request, and the different ways you can do it.
+See [how to amend a commit](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) for a write-up on how to change a pull request, and the different ways you can do it.
 
 Thank you for your suggestions!
