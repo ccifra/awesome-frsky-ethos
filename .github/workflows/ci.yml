@@ -42,4 +42,4 @@ jobs:
         uses: lycheeverse/lychee-action@v1
         with:
           fail: true
-          args: --verbose --no-progress '*.md'
+          args: --verbose --no-progress --config ./lychee.toml '*.md'

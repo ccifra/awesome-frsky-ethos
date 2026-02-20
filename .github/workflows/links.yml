@@ -1,0 +1,33 @@
+name: Check Links
+
+on:
+  # Run weekly on Sundays at midnight
+  schedule:
+    - cron: '0 0 * * 0'
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress --config ./lychee.toml '*.md'
+          # Don't fail the workflow, we want to create an issue instead
+          fail: false
+
+      - name: Create Issue From File
+        if: env.lychee_exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Link Checker Report - Broken Links Found
+          content-filepath: ./lychee/out.md
+          labels: |
+            bug
+            automated
+            broken-links

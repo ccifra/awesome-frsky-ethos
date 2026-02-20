@@ -1,0 +1,25 @@
+# Lychee link checker configuration
+# https://lychee.cli.rs/
+
+# Exclude certain URLs that may have rate limiting or require auth
+exclude = [
+  # Facebook often blocks automated requests
+  "https://www.facebook.com/*",
+  # RCGroups may have rate limiting
+  "https://www.rcgroups.com/*"
+]
+
+# Accept these HTTP status codes as valid
+accept = [200, 203]
+
+# Timeout for network requests
+timeout = 20
+
+# Maximum number of retries
+max_retries = 3
+
+# User agent to use for requests
+user_agent = "Mozilla/5.0 (compatible; awesome-frsky-ethos link checker)"
+
+# Don't check email addresses
+exclude_mail = true
