@@ -1,0 +1,16 @@
+# markdownlint configuration
+# https://github.com/DavidAnson/markdownlint
+
+default: true
+
+# Allow longer lines (awesome lists often have long links)
+MD013: false
+
+# Allow multiple top-level headings (for sections)
+MD025: false
+
+# Allow raw HTML (for badges)
+MD033: false
+
+# Allow inline HTML
+MD036: false
