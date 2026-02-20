@@ -70,6 +70,7 @@ ETHOS is the modern operating system powering FrSky transmitters including the X
 
 ## Lua Scripts & Tools
 
+- [ccifra/frsky-lua](https://github.com/ccifra/frsky-lua) - Lua scripts for FrSky radios running ETHOS.
 - [dronecontrol-ru/ethos-lua-scripts](https://github.com/dronecontrol-ru/ethos-lua-scripts) - Collection of general-purpose Lua scripts for FrSky ETHOS.
 - [strgaltdel/FrSky-Ethos-VirtualSwitch](https://github.com/strgaltdel/FrSky-Ethos-VirtualSwitch) - Script to use the bottom toggles as multi-functional virtual switches.
 - [andreaskuhl/soundsq](https://github.com/andreaskuhl/soundsq) - Widget for playing sequential voice announcements from sound files.
