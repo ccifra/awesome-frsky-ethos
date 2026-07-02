@@ -8,26 +8,30 @@ ETHOS is the modern operating system powering FrSky transmitters.
 
 ## Contents
 
-- [Official Resources](#official-resources)
-- [Lua Widgets](#lua-widgets)
-  - [Telemetry & Dashboards](#telemetry--dashboards)
-  - [Battery & Power](#battery--power)
-  - [GPS & Mapping](#gps--mapping)
-  - [Flight Modes & Status](#flight-modes--status)
-  - [Gauges & Instruments](#gauges--instruments)
-  - [Turbine & Jet](#turbine--jet)
-- [Lua Scripts & Tools](#lua-scripts--tools)
-- [Flight Controller Integration](#flight-controller-integration)
-  - [Rotorflight](#rotorflight)
-  - [INAV](#inav)
-  - [Betaflight](#betaflight)
-  - [DSM & Spektrum](#dsm--spektrum)
-- [Layouts](#layouts)
-- [Sound Packs](#sound-packs)
-- [Desktop Tools](#desktop-tools)
-- [Tutorials & Documentation](#tutorials--documentation)
-- [Localization](#localization)
-- [Community](#community)
+- [Awesome FrSky ETHOS ](#awesome-frsky-ethos-)
+  - [Contents](#contents)
+  - [Official Resources](#official-resources)
+  - [Lua Widgets](#lua-widgets)
+    - [Telemetry \& Dashboards](#telemetry--dashboards)
+    - [Battery \& Power](#battery--power)
+    - [GPS \& Mapping](#gps--mapping)
+    - [Flight Modes \& Status](#flight-modes--status)
+    - [Gauges \& Instruments](#gauges--instruments)
+    - [Turbine \& Jet](#turbine--jet)
+  - [Lua Scripts \& Tools](#lua-scripts--tools)
+  - [Flight Controller Integration](#flight-controller-integration)
+    - [Rotorflight](#rotorflight)
+    - [INAV](#inav)
+    - [Betaflight](#betaflight)
+    - [DSM \& Spektrum](#dsm--spektrum)
+    - [Wingflight](#wingflight)
+  - [Layouts](#layouts)
+  - [Sound Packs](#sound-packs)
+  - [Desktop Tools](#desktop-tools)
+  - [Tutorials \& Documentation](#tutorials--documentation)
+  - [Localization](#localization)
+  - [Community](#community)
+  - [Contributing](#contributing)
 
 ## Official Resources
 
@@ -55,6 +59,8 @@ ETHOS is the modern operating system powering FrSky transmitters.
 ### GPS & Mapping
 
 - [yaapu/EthosMappingWidget](https://github.com/yaapu/EthosMappingWidget) - Mapping widget for ETHOS with real-time GPS position display on offline maps.
+- [MartinovEm/Ethos-GPS-AccuMap](https://github.com/MartinovEm/Ethos-GPS-AccuMap) - Real-time GPS map widget for LOS pilots with live aircraft position on custom map backgrounds, last-known position retention after signal loss, and crash location aid.
+- [flyingeek/ethos-gps-qrcode](https://github.com/flyingeek/ethos-gps-qrcode) - Widget that generates a QR code from the last recorded GPS position, making it easy to open or share coordinates on a mobile device.
 - [MrD-RC/ETHOS-GNSS-display-for-INAV](https://github.com/MrD-RC/ETHOS-GNSS-display-for-INAV) - Widget to display GNSS satellite count from INAV telemetry.
 - [PD5DJ/H4LGPSMAP](https://github.com/PD5DJ/H4LGPSMAP) - Hobb4life GPS map widget with path trace and home position tracking.
 
@@ -62,6 +68,7 @@ ETHOS is the modern operating system powering FrSky transmitters.
 
 - [andreaskuhl/cflmode](https://github.com/andreaskuhl/cflmode) - Color-coded flight mode display widget for quick visual flight mode identification.
 - [andreaskuhl/3stated](https://github.com/andreaskuhl/3stated) - Widget for textual and color display of 3-state source values (switches, variables).
+- [gjawhar/FlightCount](https://github.com/gjawhar/FlightCount) - Automatic flight counter widget that tracks both today's and lifetime flight counts per model, triggered by configurable arming conditions.
 - [robthomson/RF2STATUS](https://github.com/robthomson/RF2STATUS) - Rotorflight 2 flight status widget displaying armed state, flight mode, and telemetry.
 
 ### Gauges & Instruments
@@ -74,6 +81,7 @@ ETHOS is the modern operating system powering FrSky transmitters.
 ### Turbine & Jet
 
 - [GIB2A/ETHOS-LUA-XICOY-JetCat-KingTech-and-JetMunt](https://github.com/GIB2A/ETHOS-LUA-XICOY-JetCat-KingTech-and-JetMunt) - Turbine telemetry widget for Xicoy ProHub with RPM, EGT, pump voltage, and fuel level display. Supports Basic/Expert configuration and themes.
+- [Gizmo-Labs/Gizmo_M1](https://github.com/Gizmo-Labs/Gizmo_M1) - Telemetry display widget for OMP Hobby M1 series helicopters on FrSky ETHOS transmitters (X14, X18, X20 series), with configurable font colors and model variants.
 
 ## Lua Scripts & Tools
 
@@ -85,6 +93,7 @@ ETHOS is the modern operating system powering FrSky transmitters.
 - [Jedsters/Ethos-Lua](https://github.com/Jedsters/Ethos-Lua) - Collection of tools and scripts for use with FrSky ETHOS.
 - [spoke2570/F3K_Fluff](https://github.com/spoke2570/F3K_Fluff) - F3K sport flyer widget with task timing and scoring for soaring competitions.
 - [MiRe-CZ/gpsF3XTracker-for-Ethos](https://github.com/MiRe-CZ/gpsF3XTracker-for-Ethos) - GPS-based F3X tracker tool for RC glider slope racing (F3F).
+- [Zebble/ETHOS-multi-lua](https://github.com/Zebble/ETHOS-multi-lua) - Updated `main.lua` for the DIY-Multiprotocol-TX-Module (MULTI) on ETHOS, adding protocols and sub-protocol lists missing from FrSky's stock firmware.
 - [AERCHeli/AERC_RF_Widgets](https://github.com/AERCHeli/AERC_RF_Widgets) - Collection of Rotorflight and ETHOS widgets from the AERC Heli community.
 
 ## Flight Controller Integration
@@ -109,9 +118,14 @@ ETHOS is the modern operating system powering FrSky transmitters.
 
 - [frankiearzu/DSMTools](https://github.com/frankiearzu/DSMTools) - DSM forward programming tools for EdgeTX and ETHOS. Configure Spektrum receivers directly from your FrSky transmitter.
 
+### Wingflight
+
+- [WingFlight/wingflight-lua-ethos-suite](https://github.com/WingFlight/wingflight-lua-ethos-suite) - Official Wingflight Lua configuration suite for ETHOS. Full setup and tuning of Wingflight fixed-wing flight controllers directly from your transmitter.
+
 ## Layouts
 
 - [BladeScraper-Designs/Ethos_Layouts](https://github.com/BladeScraper-Designs/Ethos_Layouts) - Custom layout Lua scripts for ETHOS with alternative screen arrangements and widget placements.
+- [flyingeek/ethos-themes](https://github.com/flyingeek/ethos-themes) - Collection of custom visual themes for the ETHOS interface, also shared on the ETHOS Feedback Community forum.
 
 ## Sound Packs
 
@@ -121,6 +135,9 @@ ETHOS is the modern operating system powering FrSky transmitters.
 
 - [Ceeb182/ConvertToETHOSBMPformat](https://github.com/Ceeb182/ConvertToETHOSBMPformat) - Image converter tool to create BMP files in the format required by ETHOS for model images and backgrounds.
 - [andrewfernie/EthosLogAnalyzer](https://github.com/andrewfernie/EthosLogAnalyzer) - Desktop application for analyzing and visualizing telemetry log files recorded by FrSky ETHOS transmitters.
+- [MartinovEm/Ethos-GPS-Map-Generator](https://github.com/MartinovEm/Ethos-GPS-Map-Generator) - Web-based tool for generating custom map tile backgrounds for ETHOS GPS map widgets such as GPS AccuMap.
+- [b14ckyy/ETHOS-Telemetry-Replay](https://github.com/b14ckyy/ETHOS-Telemetry-Replay) - Development widget that replays telemetry from CSV log files as virtual Lua sources, enabling offline testing of dashboards and widgets without a live model.
+- [flyingeek/ethos-lua-definitions](https://github.com/flyingeek/ethos-lua-definitions) - Lua type definitions and API stubs for the ETHOS scripting API, enabling autocomplete and diagnostics when writing scripts in VS Code.
 - [RobertDarc/Frsky-telemetrie-DIY-sensor-module](https://github.com/RobertDarc/Frsky-telemetrie-DIY-sensor-module) - DIY telemetry sensor module (C++) for use with FrSky X20 and ETHOS.
 
 ## Tutorials & Documentation
