@@ -93,6 +93,7 @@ ETHOS is the modern operating system powering FrSky transmitters.
 - [Jedsters/Ethos-Lua](https://github.com/Jedsters/Ethos-Lua) - Collection of tools and scripts for use with FrSky ETHOS.
 - [spoke2570/F3K_Fluff](https://github.com/spoke2570/F3K_Fluff) - F3K sport flyer widget with task timing and scoring for soaring competitions.
 - [MiRe-CZ/gpsF3XTracker-for-Ethos](https://github.com/MiRe-CZ/gpsF3XTracker-for-Ethos) - GPS-based F3X tracker tool for RC glider slope racing (F3F).
+- [MiRe-CZ/gpsF3XTracker-Pylon-for-Ethos](https://github.com/MiRe-CZ/gpsF3XTracker-Pylon-for-Ethos) - GPS-based pylon racing tracker for F3D, F3E, and F3R events, from the same author as gpsF3XTracker.
 - [Zebble/ETHOS-multi-lua](https://github.com/Zebble/ETHOS-multi-lua) - Updated `main.lua` for the DIY-Multiprotocol-TX-Module (MULTI) on ETHOS, adding protocols and sub-protocol lists missing from FrSky's stock firmware.
 - [AERCHeli/AERC_RF_Widgets](https://github.com/AERCHeli/AERC_RF_Widgets) - Collection of Rotorflight and ETHOS widgets from the AERC Heli community.
 
@@ -130,6 +131,7 @@ ETHOS is the modern operating system powering FrSky transmitters.
 ## Sound Packs
 
 - [oilytin/ETHOS-portal-sound-pack](https://github.com/oilytin/ETHOS-portal-sound-pack) - GLaDOS/Portal-themed sound pack for ETHOS. Adds personality to announcements with voice lines from the Portal game series.
+- [mshagg/Adele-Voice-Pack-for-Frsky-Ethos](https://github.com/mshagg/Adele-Voice-Pack-for-Frsky-Ethos) - Comprehensive voice pack with a custom South Australian accent, covering full system audio plus 165+ additional phrases.
 
 ## Desktop Tools
 
@@ -138,6 +140,7 @@ ETHOS is the modern operating system powering FrSky transmitters.
 - [MartinovEm/Ethos-GPS-Map-Generator](https://github.com/MartinovEm/Ethos-GPS-Map-Generator) - Web-based tool for generating custom map tile backgrounds for ETHOS GPS map widgets such as GPS AccuMap.
 - [b14ckyy/ETHOS-Telemetry-Replay](https://github.com/b14ckyy/ETHOS-Telemetry-Replay) - Development widget that replays telemetry from CSV log files as virtual Lua sources, enabling offline testing of dashboards and widgets without a live model.
 - [flyingeek/ethos-lua-definitions](https://github.com/flyingeek/ethos-lua-definitions) - Lua type definitions and API stubs for the ETHOS scripting API, enabling autocomplete and diagnostics when writing scripts in VS Code.
+- [tobiaseul/ModellConverter](https://github.com/tobiaseul/ModellConverter) - Cross-platform desktop tool for bidirectional conversion of RC model files between FrSky Ethos (.bin), EdgeTX (.yml), and Jeti Duplex (.jsn) formats.
 - [RobertDarc/Frsky-telemetrie-DIY-sensor-module](https://github.com/RobertDarc/Frsky-telemetrie-DIY-sensor-module) - DIY telemetry sensor module (C++) for use with FrSky X20 and ETHOS.
 
 ## Tutorials & Documentation
